@@ -1,0 +1,91 @@
+.viewOrderPage {
+  display: flex;
+}
+
+.viewOrder {
+  flex: 12;
+}
+
+.viewOrderWrapper {
+  padding: 30px 80px;
+}
+
+.orderId span,
+.tableOrder span,
+.foodsHeader,
+.orderTime span {
+  font-weight: 700;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.customerInfoWrapper,
+.tableOrder,
+.orderTime {
+  margin: 30px 0;
+}
+
+.customerInfoValue {
+  width: 200px;
+}
+
+.customerInfoHeader {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.foodsSelect {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  width: 100%;
+}
+
+.foodsSelectTable {
+  width: 80%;
+}
+
+.foodsSelectTable table {
+  width: 100%;
+}
+
+.totalBill span {
+  font-weight: 800;
+  margin-right: 10px;
+}
+
+.orderBillFooter {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.billFooterButton {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 200px;
+}
+
+.addMoreFoodButton,
+.printBillButton,
+.paymentButton {
+  border: 1px solid blueviolet;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.chooseFoodOrder {
+  margin-bottom: 70px;
+}
+
+.chooseFoodOrderHeader {
+  font-size: 20px;
+  width: fit-content;
+  padding: 5px;
+  border-bottom: 1px solid #dddddd;
+  margin-bottom: 15px;
+}

@@ -1,0 +1,22 @@
+.viewReportPage {
+  display: flex;
+}
+
+.viewReportWrapper {
+  flex: 12;
+  padding: 40px 40px 0 40px;
+}
+
+.charts {
+  padding: 10px;
+}
+
+.charts:focus {
+  outline: none;
+}
+
+.selectChartLabel {
+  font-size: 20px;
+  font-weight: 500;
+  margin-right: 20px;
+}

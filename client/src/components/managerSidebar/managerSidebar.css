@@ -1,0 +1,30 @@
+.managerSidebar {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: sticky;
+  top: 50px;
+  height: calc(100vh - 50px);
+  background-color: #212529;
+}
+
+.managerSidebarBottom {
+  padding: 10px 0px 15px 0px;
+  border-top: 1px solid white;
+}
+
+.managerSidebarElement {
+  margin: 33px 0px 20px 10px;
+  cursor: pointer;
+}
+.sidebarElementTitle {
+  font-size: 20px;
+  color: #fff;
+}
+
+.elementIcon {
+  font-size: 20px !important;
+  margin-right: 15px;
+  color: #fff;
+}

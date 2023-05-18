@@ -1,0 +1,219 @@
+.addOrderPage {
+  display: flex;
+}
+
+.addOrderPageWrapper {
+  flex: 10;
+  padding: 30px 80px 0px 80px;
+}
+
+.addCustomer {
+  border-bottom: 1px solid #14213d;
+  margin-bottom: 50px;
+  padding-bottom: 20px;
+}
+
+.addCustomerWrapper,
+.addFoodWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.addCustomerHeader,
+.chooseTableHeader,
+.chooseFoodHeader {
+  font-size: 35px;
+  /* font-weight: 500; */
+  width: fit-content;
+  padding: 5px;
+  border-bottom: 1px solid #dddddd;
+  margin-bottom: 15px;
+}
+
+.addCustomerSearch,
+.addFoodSearch {
+  width: 40%;
+  padding: 5px 15px;
+  border-radius: 20px;
+  border: 1px solid #4cc9f0;
+  margin: 15px 0px 25px 0px;
+  font-size: 12px;
+}
+
+.addCustomerSearch:focus,
+.addFoodSearch:focus {
+  outline: none;
+}
+
+.addCustomerButton,
+.addFoodButton {
+  border: 1px solid #0b67be;
+  padding: 7px;
+  margin: 20px;
+  width: fit-content;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  background-color: #fff;
+  border-radius: 7px;
+}
+
+.customerInfos,
+.foodInfos {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 30px;
+}
+
+.customerInfo,
+.foodInfo {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  margin-right: 20px;
+}
+
+.customerInfoLabel,
+.foodInfoLabel {
+  margin-right: 10px;
+}
+
+.customerInfoValue,
+.foodInfoValue {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.195);
+  width: 100px;
+  padding-bottom: 2px;
+  font-weight: 100;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.customerTable,
+.foodTable {
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 90%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tbody > tr {
+  cursor: pointer;
+}
+
+tbody :hover {
+  background-color: #dddddd;
+}
+
+.addNewCustomerWrapper {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  background-color: #eaf4f4;
+}
+
+.addCustomerForm {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.addFormInput {
+  display: flex;
+  align-items: center;
+}
+
+.addLabel {
+  margin-right: 20px;
+}
+
+.addCustomerInput {
+  padding: 5px;
+  padding-left: 10px;
+  border-radius: 5px;
+  border: 1px solid #0b67be;
+}
+
+.addCustomerInput:focus {
+  outline: none;
+}
+
+.addNewCustomerButton {
+  padding: 5px;
+  background-color: #fff;
+  border: 1px solid #dddddd;
+  cursor: pointer;
+}
+
+.chooseTable {
+  border-bottom: 1px solid black;
+  margin-bottom: 30px;
+}
+
+.chooseFood {
+  margin-bottom: 100px;
+}
+
+.quantity {
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.195);
+}
+
+.quantity:focus {
+  outline: none;
+}
+
+.addFoodButton {
+  padding: 10px;
+  width: 60px;
+}
+
+.deleteButton {
+  padding: 2px 5px;
+  border-radius: 5px;
+  color: crimson;
+  border: 1px dotted rgba(220, 20, 60, 0.6);
+  cursor: pointer;
+  background-color: white;
+}
+.addOrderFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.total {
+  font-weight: 800;
+  margin: 30px 0 0 70px;
+  font-size: 17px;
+}
+
+.createOrderButton {
+  background-color: white;
+  cursor: pointer;
+  border: 1px solid #0b67be;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 17px 52px 0 0;
+}
+
+.foodTable {
+  margin: 10px 0 90px 0;
+}

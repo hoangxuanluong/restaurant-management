@@ -1,0 +1,8 @@
+.manageOrderPage {
+  display: flex;
+}
+
+.manageOrderWrapper {
+  flex: 10.5;
+  padding: 30px 80px;
+}
